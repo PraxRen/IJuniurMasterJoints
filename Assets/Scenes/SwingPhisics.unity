@@ -218,7 +218,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _rigidbody: {fileID: 1846513227}
   _force: 100
-  _button: 32
+  _buttonPush: 32
 --- !u!4 &187263323 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3211486908759055667, guid: 0fa6da42928274144a46e85db9a88db7, type: 3}

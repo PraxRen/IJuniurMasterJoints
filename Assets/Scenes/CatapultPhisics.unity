@@ -284,13 +284,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 86e744c621a9a7442a0e5b83060a3db2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _springJointSpoon: {fileID: 668194872}
-  _attackPoint: {fileID: 929828037}
-  _idlePoint: {fileID: 1231213956}
-  _projectilePoint: {fileID: 105894122}
-  _projectilePrefab: {fileID: 364878227753500122, guid: 8202de6ba879d654586c6e91d7ab30d6, type: 3}
-  _lifetimeProjectile: 10
-  _spting: 8000
+  _catapultSpoon: {fileID: 668194880}
+  _spring: 8000
   _buttonAttack: 32
   _buttonRestart: 114
 --- !u!1 &519545464
@@ -409,6 +404,7 @@ GameObject:
   - component: {fileID: 668194878}
   - component: {fileID: 668194877}
   - component: {fileID: 668194876}
+  - component: {fileID: 668194880}
   m_Layer: 0
   m_Name: Spoon
   m_TagString: Untagged
@@ -610,6 +606,25 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.05, y: 0.24, z: 0.54}
   m_Center: {x: -0.26, y: -0.02, z: 1.24}
+--- !u!114 &668194880
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 668194870}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 454472b289d864f44853b62e5bac9390, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _springJointSpoon: {fileID: 668194872}
+  _rigidbody: {fileID: 668194873}
+  _attackPoint: {fileID: 929828037}
+  _idlePoint: {fileID: 1231213956}
+  _projectilePoint: {fileID: 105894122}
+  _projectilePrefab: {fileID: 364878227753500122, guid: 8202de6ba879d654586c6e91d7ab30d6, type: 3}
+  _lifetimeProjectile: 5
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0
